@@ -19,7 +19,7 @@ window.onload = function () {
 	for(let i = 0; i < bandNamesWithoutArticles; i++){
 	    const bandList = bandNamesWithoutArticles[i];
 	    const liElement = document.createElement("li")
-	    liElement.innerText = bandList 
+	    liElement.textContent = bandList 
 	    ulElements.appendChild(liElement);
 	}
 }
